@@ -26,7 +26,7 @@ body {
     }
 
 .jumbotron {
-    background-image: url("./https://manuelahoyos.github.io/Belly-Button-Dashboard/Code/microbes.jpg");
+    background-image: url(../microbes.jpg);
     text-align: center;
     font-family: 'Helvetica';
     color: white;
