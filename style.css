@@ -2,7 +2,7 @@
 body {
 position: relative;
 top: 50%;
-background-color: lightgrey;
+background-color: whitesmoke;
 background-blend-mode: lighten;
 background-attachment: fixed;
 margin: 0;
@@ -31,8 +31,11 @@ button {
   font-size: large;
 }
 
+
 .navbar {
-  padding-left: 50px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-right: 5px;
   background-color: lightgray;
   font-family: 'Helvetica';
   font-weight: normal;
@@ -51,13 +54,50 @@ ______________________________________ */
 	height: auto;
   font-family: Gill Sans, sans-serif;
   outline-style: solid;
-  outline-color: white;
+  outline-width: 1px;
+  outline-color: lightgray;
   box-shadow: none;
-  margin-top: 50px; 
-  margin-left: auto;
-  margin-right: auto;
-	margin-bottom: 50px;
+  margin-top: 80px; 
+  margin-left: 100px;
+  margin-right: 100px;
+	margin-bottom: 80px;
 	padding: 10px 20px 15px;
+	border-radius: 4px;
+}
+
+#resumebox {
+  background-color: white;
+	box-shadow: 3px 5px 5px 3px gray;
+	width: auto;
+	height: auto;
+  font-family: Gill Sans, sans-serif;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: lightgray;
+  box-shadow: none;
+  margin-top: 80px; 
+  margin-left: 100px;
+  margin-right: 100px;
+	margin-bottom: 80px;
+	padding: 20px 20px 15px;
+	border-radius: 4px;
+}
+
+#projectbox {
+  background-color: white;
+	box-shadow: 3px 5px 5px 3px gray;
+	width: auto;
+	height: auto;
+  font-family: Gill Sans, sans-serif;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: lightgray;
+  box-shadow: none;
+  margin-top: 80px; 
+  margin-left: 130px;
+  margin-right: 130px;
+	margin-bottom: 80px;
+	padding: 20px 20px 15px;
 	border-radius: 4px;
 }
 
@@ -81,6 +121,14 @@ h3 {
      font-family: 'Helvetica';
      font-weight: normal;
 }
+
+h4 {
+  color: black;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  text-align: center;
+}
+
 h5 {
   color: black(12, 173, 167);
   background-color: white;
@@ -90,16 +138,97 @@ h5 {
 
 
 img {
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
-p {
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 30%;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 105%;
+  height: 105%;
+}
+
+.row { display: flex; justify-content: center; align-items: center; }
+
+.button1 {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: lightgray;
+  margin-right: 3%;
+  width: 80px;
+  height: 40px;
+  color: gray;
+  font-family: Helvetica;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button2 {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: lightgray;
+  width: 80px;
+  height: 40px;
+  color: gray;
+  font-family: Helvetica;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button1 , .button2 {
+  text-align: center;
+  display:inline-block;
+  }
+
+
+p, ul, li {
+  margin-left: 2%;
+  margin-right: 2%;
 	color: black;
 	font-family: Helvetica;
   font-size: 16px;
   font-weight: normal
 }
+
+a {
+  text-decoration: none;
+}
+
+.nav-item{
+  text-decoration: none;
+  margin-left: 2%;
+}
+
+.nav-item:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+a:hover 
+{
+   color:#00A0C6; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+
+
