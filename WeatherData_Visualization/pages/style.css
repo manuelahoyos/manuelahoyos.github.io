@@ -31,7 +31,8 @@ button {
 }
 
 .navbar {
-  padding-left: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: rgb(179, 60, 90);
   font-family: 'Helvetica';
   font-weight: normal;
@@ -43,40 +44,6 @@ button {
 /* =Box container
 ______________________________________ */
 
-#sumbox {
-	background-color: white;
-	box-shadow: 3px 5px 5px 3px gray;
-	width: 600px;
-	height: auto;
-  font-family: Gill Sans, sans-serif;
-  outline-style: solid;
-  outline-color: lightslategrey;
-  box-shadow: none;
-  margin-top: 50px; 
-  margin-left: auto;
-  margin-right: auto;
-	margin-bottom: 50px;
-	padding: 10px 20px 15px;
-	border-radius: 4px;
-}
-
-#visbox {
-  background-color: white;
-	box-shadow: 3px 5px 5px 3px gray;
-	width: 570px;
-	height: auto;
-  font-family: Gill Sans, sans-serif;
-  outline-style: solid;
-  outline-color: lightslategrey;
-  box-shadow: none;
-  margin-top: 50px; 
-  margin-left: auto;
-  margin-right: auto;
-	margin-bottom: 50px;
-	padding: 10px 20px 15px;
-	border-radius: 4px;
-}
-
 #comparisonbox {
   background-color: white;
 	box-shadow: 3px 5px 5px 3px gray;
@@ -84,15 +51,15 @@ ______________________________________ */
 	height: auto;
   font-family: Gill Sans, sans-serif;
   outline-style: solid;
-  outline-color: lightslategrey;
+  outline-width: 1px;
+  outline-color: lightgray;
   box-shadow: none;
   margin-top: 50px; 
-  margin-left: auto;
-  margin-right: auto;
 	margin-bottom: 50px;
 	padding: 10px 20px 15px;
 	border-radius: 4px;
 }
+
 
 #dataBox {
   background-color: white;
@@ -101,11 +68,10 @@ ______________________________________ */
 	height: auto;
   font-family: Gill Sans, sans-serif;
   outline-style: solid;
-  outline-color: lightslategrey;
+  outline-width: 1px;
+  outline-color: lightgray;
   box-shadow: none;
   margin-top: 50px; 
-  margin-left: auto;
-  margin-right: auto;
 	margin-bottom: 50px;
 	padding: 10px 20px 15px;
 	border-radius: 4px;
